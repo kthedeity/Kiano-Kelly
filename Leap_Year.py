@@ -14,3 +14,16 @@ if year %  4 == 0:
 # if the first if statement wasnt true
 else:
   print("Not leap year")
+"""
+Another way to code it 
+if year % 4 == 0:
+  if year % 100 == 0:
+    if year % 400 == 0:
+      print("Leap year")
+    else:
+      print("Not leap year")
+  else:
+    print("Leap year")
+else:
+  print("Not leap year")
+"""
