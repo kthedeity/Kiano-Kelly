@@ -11,6 +11,6 @@ if year %  4 == 0:
   # if Not true
   else:
     print("Not leap year") 
-# if the first if statement wasnt true.
+# if the first if statement wasnt true
 else:
   print("Not leap year")
